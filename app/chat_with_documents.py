@@ -35,7 +35,8 @@ st.set_page_config(page_title="New Opportunity", page_icon="🏆")
 
 if st.button("Clear message history", key="clear_button"):
     st.session_state.clear_messages = True
-st.title("💪 Meet Your New Automated Coach")
+st.title("Meet Your New Automated Program Generator")
+st.write("Instead of spreadsheets, templates, and calls just send this your clients and set yourself apart from the competition")
 st.caption("If you need any additional info please message Adrian on LinkedIn or email him at adrianoligarch@gmail.com")
 
 @st.cache_resource(ttl="1h")
