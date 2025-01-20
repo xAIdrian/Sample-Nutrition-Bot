@@ -1,5 +1,6 @@
 # Python
 app/venv/
+app/.streamlit/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -77,3 +78,4 @@ db.sqlite3-journal
 # System Files
 .DS_Store
 Thumbs.db
+app/.streamlit/secrets.toml
