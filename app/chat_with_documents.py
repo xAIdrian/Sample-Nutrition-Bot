@@ -39,7 +39,7 @@ st.title("Meet Your New Automated Program Generator")
 st.write("Instead of spreadsheets, templates, and calls just send this your clients and set yourself apart from the competition")
 st.caption("If you need any additional info please message Adrian on LinkedIn or email him at adrianoligarch@gmail.com")
 
-@st.cache_resource(ttl="1h")
+@st.cache_resource
 def configure_retriever(_uploaded_files):
     # Read documents
     docs = []
